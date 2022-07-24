@@ -1,0 +1,324 @@
+2022-07-24 11:51:56.696 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-24 11:51:56.697 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Ali Muhammad Moaiz/.fdk/configs.json: Cannot find module 'C:\Users\Ali Muhammad Moaiz/.fdk/configs.json'
+Require stack:
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-24 11:51:56.698 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-24 11:51:56.698 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\Personal Projects\CRM-Freshchat App/.fdk/configs.json: Cannot find module 'D:\Personal Projects\CRM-Freshchat App/.fdk/configs.json'
+Require stack:
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-24 11:51:56.698 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-24 11:51:56.698 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-24 11:51:56.698 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-24 11:51:56.698 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-24 11:51:56.698 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\Personal Projects\CRM-Freshchat App/.fdk/store.sqlite"[0m
+2022-07-24 11:51:56.698 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"create","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-24 11:51:56.698 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:51:56.699 +0500 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-07-24 11:51:57.326 +0500 [debug] ([34mupdater.js[0m) [31mdownloaded update manifest as {"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}}[0m
+2022-07-24 11:51:57.328 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:51:59.117 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:51:59.123 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}}}[0m
+2022-07-24 11:51:59.141 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658645519117}}[0m
+2022-07-24 11:51:59.144 +0500 [debug] ([34mcreate.js[0m) [31m'init' called with D:\Personal Projects\CRM-Freshchat App, undefined, undefined[0m
+2022-07-24 11:52:05.294 +0500 [debug] ([34mcreate.js[0m) [31mInitializing template "your_first_serverless_app" with product "freshchat".[0m
+2022-07-24 11:52:05.305 +0500 [info] A new Freshchat app was successfully created from template "your_first_serverless_app" with the following files.
+
+2022-07-24 11:52:30.189 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-24 11:52:30.190 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Ali Muhammad Moaiz/.fdk/configs.json: Cannot find module 'C:\Users\Ali Muhammad Moaiz/.fdk/configs.json'
+Require stack:
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-24 11:52:30.190 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-24 11:52:30.191 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\Personal Projects\CRM-Freshchat App/.fdk/configs.json: Cannot find module 'D:\Personal Projects\CRM-Freshchat App/.fdk/configs.json'
+Require stack:
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-24 11:52:30.191 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-24 11:52:30.191 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-24 11:52:30.191 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-24 11:52:30.191 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-24 11:52:30.191 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\Personal Projects\CRM-Freshchat App/.fdk/store.sqlite"[0m
+2022-07-24 11:52:30.191 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-24 11:52:30.191 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658645519117}}[0m
+2022-07-24 11:52:30.191 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-24 11:52:30.401 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"}}.[0m
+2022-07-24 11:52:30.401 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-24 11:52:30.403 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658645519117}}[0m
+2022-07-24 11:52:30.436 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658645519117}}[0m
+2022-07-24 11:52:30.648 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\Personal Projects\CRM-Freshchat App/.report.json: Cannot find module 'D:\Personal Projects\CRM-Freshchat App/.report.json'
+Require stack:
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-24 11:52:31.529 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658645519117}}[0m
+2022-07-24 11:52:32.468 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-24 11:52:32.469 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-24 11:52:32.469 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-24 11:52:32.469 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-24 11:52:32.469 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\Personal Projects\CRM-Freshchat App/config/ exists.[0m
+2022-07-24 11:52:32.470 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-07-24 11:52:32.470 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-24 11:52:32.470 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-24 11:52:32.477 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback"] as exported functions.[0m
+2022-07-24 11:52:32.477 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-24 11:52:32.479 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-24 11:52:32.479 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-24 11:52:32.480 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-24 11:52:32.480 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-24 11:52:32.480 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-24 11:52:32.480 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-24 11:52:32.480 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-24 11:52:32.480 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-24 11:52:32.482 +0500 [warn] Please ensure that the following are addressed for quick review process.
+2022-07-24 11:52:32.484 +0500 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-24 11:52:32.486 +0500 [error] 
+2022-07-24 11:52:32.487 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-07-24 11:52:32.491 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-07-24 11:52:32.491 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:52:32.491 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-24 11:52:32.492 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-24 11:52:33.675 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-24 11:52:33.677 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-24 11:52:33.677 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-24 11:52:33.678 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-24 11:52:33.679 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-24 11:52:33.681 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Ali Muhammad Moaiz\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-24 11:52:33.698 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:52:33.698 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-24 11:52:33.699 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-24 11:52:33.701 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-24 11:52:33.702 +0500 [info] Populating test data with events found in the app
+2022-07-24 11:53:39.314 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 11:53:55.866 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:53:55.867 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 11:53:55.905 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:55:54.096 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 11:56:03.506 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 11:56:16.193 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 11:56:40.511 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 11:57:00.102 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 11:57:08.665 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:57:08.666 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 11:57:08.686 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:57:19.046 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:57:19.046 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 11:57:19.073 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:57:54.401 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 11:57:59.419 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:57:59.420 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 11:57:59.435 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:58:14.774 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 11:58:18.440 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:58:18.440 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 11:58:18.452 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:58:34.244 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 11:58:41.477 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 11:58:44.364 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 11:58:44.364 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 11:58:44.382 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:00:32.652 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:00:33.751 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:00:35.505 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:00:40.340 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:00:40.340 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:00:40.359 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:01:10.522 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:01:14.137 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:01:14.138 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:01:14.155 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:01:22.335 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:01:22.772 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:01:22.882 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:01:22.992 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:01:23.101 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:01:23.211 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:01:23.323 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:01:23.433 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:01:24.090 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:01:30.220 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:01:30.220 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:01:30.238 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:02:08.931 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:02:14.111 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:02:14.112 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:02:14.131 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:04:35.408 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:04:35.848 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:04:35.957 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:04:36.064 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:04:36.175 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:04:36.285 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:04:36.395 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:04:36.504 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:04:39.874 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:04:39.874 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:04:39.889 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:05:28.613 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\styles.css"}" to all listeners.[0m
+2022-07-24 12:05:50.864 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:05:56.542 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:05:56.542 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:05:56.561 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:06:26.109 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:06:29.786 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:06:29.787 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:06:29.805 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:07:45.708 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:07:49.962 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:07:49.963 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:07:49.980 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:09:08.092 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:09:20.366 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:09:52.072 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:09:55.715 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:09:55.715 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:09:55.731 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:10:23.153 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:10:25.952 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:10:25.953 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:10:25.969 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:11:49.128 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:11:49.566 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:11:49.674 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:11:50.115 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:11:55.688 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:17:15.461 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:17:17.911 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:17:17.911 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:17:17.931 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:17:57.281 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:18:00.927 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:18:00.927 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:18:00.952 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:18:33.291 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:18:35.434 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:18:35.434 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:18:35.453 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:21:03.399 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:21:07.547 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:21:07.547 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:21:07.566 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:21:54.209 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:22:00.523 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:22:00.523 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:22:00.539 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:22:19.799 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:22:20.239 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:22:20.348 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:22:24.441 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:22:24.442 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:22:24.455 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:24:03.472 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:24:07.333 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:24:07.334 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:24:07.345 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:24:36.564 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:24:40.692 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:24:40.692 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:24:40.712 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:25:45.400 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:25:48.531 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:25:48.531 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:25:48.550 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:26:07.702 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:26:11.063 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:26:11.063 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:26:11.082 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:26:52.110 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:27:10.287 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:27:12.874 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:27:12.874 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:27:12.892 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:27:35.668 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:27:38.634 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:27:38.634 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:27:38.654 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:27:40.955 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:27:40.955 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:27:40.971 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:27:53.326 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:28:04.162 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:28:07.205 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:28:07.205 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:28:07.223 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:28:21.763 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:28:23.814 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:28:23.814 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:28:23.831 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:28:50.636 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:28:50.963 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:28:52.538 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:28:52.538 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:28:52.556 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:30:00.385 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:30:02.732 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:30:02.732 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:30:02.748 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:31:32.502 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:31:34.585 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:31:36.857 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:31:36.857 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:31:36.873 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:31:47.195 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:31:47.195 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:31:47.213 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:32:09.934 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:32:12.910 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:32:12.910 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:32:12.925 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:33:22.037 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:33:22.146 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:33:22.583 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:33:22.694 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:33:23.021 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:33:39.615 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:33:39.615 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:33:39.633 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:33:50.921 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:33:55.277 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:33:55.277 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:33:55.295 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:34:11.370 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:34:12.028 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:34:14.364 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:34:14.364 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:34:14.381 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:34:35.774 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:34:48.218 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:34:48.218 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:34:48.233 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:35:05.038 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:35:05.585 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:35:05.695 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:35:11.815 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:35:20.028 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:35:22.172 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:35:22.173 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:35:22.188 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:36:05.983 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:36:08.416 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:36:08.416 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:36:08.430 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:36:30.352 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:36:30.353 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:36:30.369 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:37:53.378 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:38:14.178 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-24 12:38:17.415 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:38:17.416 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-24 12:38:17.430 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-24 12:38:42.721 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m

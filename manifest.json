@@ -1,0 +1,23 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshchat": {
+      "events": {
+        "onAppInstall": {
+          "handler": "onAppInstallCallback"
+        },
+        "onAppUninstall": {
+          "handler": "onAppUninstallCallback"
+        },
+        "onExternalEvent": {
+          "handler": "onExternalEventCallback"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [],
+  "engines": {
+    "node": "14.20.0",
+    "fdk": "8.4.0"
+  }
+}
