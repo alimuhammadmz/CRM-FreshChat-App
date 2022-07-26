@@ -10,7 +10,7 @@ exports = {
    * @param {Object} payload
    */
   onAppInstallCallback: function (payload) {
-    console.log("Logging arguments from onAppInstallevent : " + JSON.stringify(payload));
+    console.log("Logging arguments from onAppInstallevent : " + payload);
     generateTargetUrl()
       .then(function (url) {
         console.info("Generated Webhook URL : " + url);
@@ -26,14 +26,35 @@ exports = {
    * @param {Object} payload
    */
   onExternalEventCallback: function (payload) {
-    console.log("Logging arguments from onExternalEvent: " + JSON.stringify(payload));
+    console.log("Logging arguments from onExternalEvent: " + payload);
   },
   /**
    * When you click the uninstall icon, the `onAppUninstall` event occurs and then the registered callback method is executed.
    * @param {Object} payload
    */
   onAppUninstallCallback: function (payload) {
-    console.log("Logging arguments from onAppUninstall event: " + JSON.stringify(payload));
+    console.log("Logging arguments from onAppUninstall event: " + payload);
     renderData();
+  },
+
+  //my custom-defined functions:
+  onScheduledEventCallback: function (payload) {
+    console.log("Logging arguments from onScheduledEvent: " + JSON.stringify(payload));
+  },
+  onConversationCreateCallback: function (payload) {
+    console.log(payload);
+  },
+  onConversationUpdateCallback: function (payload) {
+    console.log(payload);
+  },
+  onMessageCreateCallback: function (payload) {
+    console.log(payload);
+  },
+  onUserCreateCallback: function (payload) {
+    console.log(payload);
+  },
+  onUserUpdateCallback: function (payload) {
+    console.log(payload);
   }
+
 }
