@@ -29,21 +29,16 @@
 <body>
     <div id="successModal" class="modal fade" tabindex="-1">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <fw-toast-message open id="type_toast" sticky=true type="success" content="Login Successful!"></fw-toast-message>
-                </div>
+            <div class="modal-body">
+                <fw-toast-message open id="type_toast" sticky=true type="success" content="Login Successful!"></fw-toast-message>
             </div>
         </div>
     </div>
 
     <div id="errorModal" class="modal fade" tabindex="-1">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <fw-toast-message open id="type_toast" sticky=true type="error" content="Incorrect credentials!"></fw-toast-message>
-                </div>
-                
+            <div class="modal-body">
+                <fw-toast-message open id="type_toast" sticky=true type="error" content="Incorrect credentials!"></fw-toast-message>
             </div>
         </div>
     </div>
@@ -133,6 +128,7 @@
                     domain: "codup"
                 }
                 return credentials;
+                
             }
             
             function isAuthenticUser(){

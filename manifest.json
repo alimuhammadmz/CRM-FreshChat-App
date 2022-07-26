@@ -9,8 +9,26 @@
         "onAppUninstall": {
           "handler": "onAppUninstallCallback"
         },
+        "onConversationCreate": {
+          "handler": "onConversationCreateCallback"
+        },
+        "onConversationUpdate": {
+          "handler": "onConversationUpdateCallback"
+        },
         "onExternalEvent": {
           "handler": "onExternalEventCallback"
+        },
+        "onMessageCreate": {
+          "handler": "onMessageCreateCallback"
+        },
+        "onScheduledEvent": {
+          "handler": "onScheduledEventCallback"
+        },
+        "onUserCreate": {
+          "handler": "onUserCreateCallback"
+        },
+        "onUserUpdate": {
+          "handler": "onUserUpdateCallback"
         }
       }
     }
