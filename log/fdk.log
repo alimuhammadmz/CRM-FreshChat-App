@@ -322,3 +322,179 @@ To simulate product, app setup, and external events, visit - http://localhost:10
 2022-07-24 12:38:17.416 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM-Freshchat App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
 2022-07-24 12:38:17.430 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
 2022-07-24 12:38:42.721 +0500 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-07-26 11:53:00.607 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-26 11:53:00.609 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-19/.fdk/configs.json: Cannot find module 'C:\Users\Intern-19/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-26 11:53:00.609 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-26 11:53:00.609 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-19\Documents\CRM-FreshChat-App/.fdk/configs.json: Cannot find module 'C:\Users\Intern-19\Documents\CRM-FreshChat-App/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-26 11:53:00.609 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-26 11:53:00.609 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-26 11:53:00.610 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-26 11:53:00.610 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-26 11:53:00.610 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Intern-19\Documents\CRM-FreshChat-App/.fdk/store.sqlite"[0m
+2022-07-26 11:53:00.610 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-26 11:53:00.610 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658817510790}}[0m
+2022-07-26 11:53:00.610 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-26 11:53:00.898 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"}}.[0m
+2022-07-26 11:53:00.898 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-26 11:53:00.901 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658817510790}}[0m
+2022-07-26 11:53:00.931 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658817510790}}[0m
+2022-07-26 11:53:01.217 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-19\Documents\CRM-FreshChat-App/.report.json: Cannot find module 'C:\Users\Intern-19\Documents\CRM-FreshChat-App/.report.json'
+Require stack:
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-26 11:53:02.511 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658817510790}}[0m
+2022-07-26 11:53:03.711 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-26 11:53:03.712 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-26 11:53:03.712 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-26 11:53:03.713 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-26 11:53:03.713 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Intern-19\Documents\CRM-FreshChat-App/config/ exists.[0m
+2022-07-26 11:53:03.714 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html,iparam_test_data.json[0m
+2022-07-26 11:53:03.715 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-26 11:53:03.715 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-26 11:53:03.743 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback"] as exported functions.[0m
+2022-07-26 11:53:03.744 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-26 11:53:03.812 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-26 11:53:03.812 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-26 11:53:03.812 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-26 11:53:03.812 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-26 11:53:03.812 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-26 11:53:03.813 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-26 11:53:03.813 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-26 11:53:03.813 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-26 11:53:03.820 +0500 [warn] Please ensure that the following are addressed for quick review process.
+2022-07-26 11:53:03.821 +0500 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-26 11:53:03.821 +0500 [error] 
+2022-07-26 11:53:03.824 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-07-26 11:53:03.832 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-07-26 11:53:03.838 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:53:03.838 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-26 11:53:03.838 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-26 11:53:08.375 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-26 11:53:08.380 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-26 11:53:08.383 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-26 11:53:08.386 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-26 11:53:08.388 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-26 11:53:08.390 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-26 11:53:08.420 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:53:08.421 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-26 11:53:08.423 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-26 11:53:08.423 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-26 11:53:08.423 +0500 [info] Populating test data with events found in the app
+2022-07-26 11:53:08.424 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-26 11:53:08.489 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:53:08.490 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705},"displayName":"CRM-FreshChat-App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-26 11:53:08.503 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:53:51.847 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:53:54.457 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:53:54.959 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:53:55.259 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:54:05.308 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-26 11:54:05.310 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-19/.fdk/configs.json: Cannot find module 'C:\Users\Intern-19/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-26 11:54:05.310 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-26 11:54:05.310 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-19\Documents\CRM-FreshChat-App/.fdk/configs.json: Cannot find module 'C:\Users\Intern-19\Documents\CRM-FreshChat-App/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-26 11:54:05.310 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-26 11:54:05.310 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-26 11:54:05.310 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-26 11:54:05.311 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-26 11:54:05.311 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Intern-19\Documents\CRM-FreshChat-App/.fdk/store.sqlite"[0m
+2022-07-26 11:54:05.311 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-26 11:54:05.311 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658817510790}}[0m
+2022-07-26 11:54:05.311 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-26 11:54:05.600 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"}}.[0m
+2022-07-26 11:54:05.601 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-26 11:54:05.604 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658817510790}}[0m
+2022-07-26 11:54:05.631 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658817510790}}[0m
+2022-07-26 11:54:07.133 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658817510790}}[0m
+2022-07-26 11:54:08.302 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-26 11:54:08.303 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-26 11:54:08.303 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-26 11:54:08.304 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-26 11:54:08.304 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Intern-19\Documents\CRM-FreshChat-App/config/ exists.[0m
+2022-07-26 11:54:08.305 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html,iparam_test_data.json[0m
+2022-07-26 11:54:08.305 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-26 11:54:08.305 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-26 11:54:08.322 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback"] as exported functions.[0m
+2022-07-26 11:54:08.323 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-26 11:54:08.378 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-26 11:54:08.378 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-26 11:54:08.378 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-26 11:54:08.379 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-26 11:54:08.379 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-26 11:54:08.379 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-26 11:54:08.379 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-26 11:54:08.379 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-26 11:54:08.383 +0500 [warn] Please ensure that the following are addressed for quick review process.
+2022-07-26 11:54:08.384 +0500 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-26 11:54:08.385 +0500 [error] 
+2022-07-26 11:54:08.387 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-07-26 11:54:08.396 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-07-26 11:54:08.397 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:54:08.397 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-26 11:54:08.397 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-26 11:54:08.574 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:54:08.576 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705},"displayName":"CRM-FreshChat-App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-26 11:54:08.586 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:54:11.034 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-26 11:54:11.039 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-26 11:54:11.041 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-26 11:54:11.044 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-26 11:54:11.046 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-26 11:54:11.049 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-19\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-26 11:54:11.075 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:54:11.076 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-26 11:54:11.077 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-26 11:54:11.078 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-26 11:54:11.078 +0500 [info] Populating test data with events found in the app
+2022-07-26 11:54:11.079 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-26 11:54:24.257 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:54:25.605 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:54:28.149 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:54:28.149 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705},"displayName":"CRM-FreshChat-App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-26 11:54:28.165 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:54:41.190 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:54:42.291 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:54:44.899 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:54:44.900 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705},"displayName":"CRM-FreshChat-App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-26 11:54:44.914 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:54:54.747 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:54:56.288 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:55:02.319 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:55:07.238 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:55:08.741 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:55:10.548 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:55:13.158 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:55:15.168 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:55:15.268 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-26 11:55:16.974 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
+2022-07-26 11:55:16.975 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705},"displayName":"CRM-FreshChat-App","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-26 11:55:16.988 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_fr_101_101_freshchat":{"crm_fr_101_101_custom_iparams":{"__meta":{"secure":["alimuhammad.moaiz@gmail.com"]},"EMAIL":"alimuhammad.moaiz@gmail.com","DOMAIN":"codup","LKEY":"ABC-123","date":1658648322705}}}[0m
