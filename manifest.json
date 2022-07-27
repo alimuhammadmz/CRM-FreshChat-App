@@ -37,5 +37,9 @@
   "engines": {
     "node": "14.20.0",
     "fdk": "8.4.0"
+    
+  },
+  "dependencies": {
+    "request":"2.88.2"
   }
 }
